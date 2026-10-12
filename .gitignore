@@ -1,0 +1,25 @@
+# Secrets and runtime artifacts
+.env
+.env.*
+!.env.example
+wp-config.php
+*service-account*.json
+*credentials*.json
+*private-key*
+*.pem
+*.key
+*.log
+*.sql
+*.sqlite
+*.zip
+*.tar
+*.gz
+node_modules/
+vendor/
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+__pycache__/
+*.bak
+*.backup
